@@ -860,3 +860,7 @@ def main():
                 item.pop('res')
                 logger.info(item)
             logger.info('result save to {}'.format(args.output))
+
+
+if __name__ == "__main__":
+    main()
